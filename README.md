@@ -1,8 +1,6 @@
 # ML4SA
 My curated list of machine learning-based techniques for sound art in creative media.
 
-[TOC]
-
 
 
 ## Audio Recognition
@@ -40,6 +38,23 @@ My curated list of machine learning-based techniques for sound art in creative m
 
 
 ## Audio Related Packages
+
+* Contents
+    - [Read/Write](#read-write)
+    - [Transformations - General DSP](#transformations---general-dsp)
+    - [Feature extraction](#feature-extraction)
+    - [Data augmentation](#data-augmentation)
+    - [Speech Processing](#speech-processing)
+    - [Environmental Sounds](#environmenta)
+    - [Perceptial Models - Auditory Models](#perceptial-models---auditory-models)
+    - [Source Separation](#source-separation)
+    - [Music Information Retrieval](#music-information-retrieval)
+    - [Deep Learning](#deep-learning)
+    - [Symbolic Music - MIDI - Musicology](#symbolic-music---midi---musicology)
+    - [Realtime applications](#realtime-applications)
+    - [Web - Audio](#web-audio)
+    - [Audio related APIs and Datasets](#audio-related-apis-and-datasets)
+    - [Wrappers for Audio Plugins](#wrappers-for-audio-plugins)
 
 - Total number of packages: 66
 
