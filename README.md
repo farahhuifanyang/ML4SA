@@ -17,7 +17,19 @@ My curated list of machine learning-based techniques for sound art in creative m
 
   - YAMNet: A deep learning model developed by Google that can recognize a wide range of audio events from 521 audio classes.
 
- 
+- ML techniques explained
+
+  - Convolutional Neural Networks (CNNs): CNNs are commonly used for audio recognition tasks such as speech recognition, music genre classification, and environmental sound classification. They excel at capturing local audio features by applying convolutional filters to spectrograms or raw audio waveforms.
+
+  - Recurrent Neural Networks (RNNs): RNNs are suitable for tasks that require sequential modeling, such as speech recognition and music transcription. They can capture temporal dependencies in audio data by utilizing recurrent connections to maintain memory of past information.
+
+  - Hidden Markov Models (HMMs): HMMs are statistical models often used in speech recognition. They represent audio as a sequence of states and use probability distributions to model the transitions between states.
+
+  - Attention Mechanisms: Attention mechanisms help models focus on specific parts of an audio sequence, allowing them to capture important temporal dependencies. They have improved the performance of tasks like speech recognition and audio event detection.
+
+  - Transformer Models: Transformer models, originally developed for natural language processing, have also been applied to audio recognition. They use self-attention mechanisms to capture long-range dependencies in audio signals, leading to state-of-the-art performance in tasks like music genre classification.
+
+    
 
 ## Audio Synthesis
 
@@ -26,6 +38,11 @@ My curated list of machine learning-based techniques for sound art in creative m
 - State-of-the-Art Methods: Notable machine learning libraries and models for audio synthesis include:
   - Magenta: An open-source project by Google that explores the intersection of machine learning and music generation. It provides models like MusicVAE and NSynth for generating new musical compositions and timbres.
   - WaveGAN: A Generative Adversarial Network (GAN)-based model that can generate high-quality audio samples. It can learn and mimic the distribution of real audio data to create realistic and diverse sounds.
+- ML techniques explained
+  - Generative Adversarial Networks (GANs): GANs can be used for audio synthesis tasks, such as generating realistic instrument sounds or speech. The generator network learns to produce audio samples that are indistinguishable from real audio, while the discriminator network learns to differentiate between real and generated samples.
+  - Variational Autoencoders (VAEs): VAEs are used for learning latent representations of audio data. They can generate new audio samples by sampling from the learned latent space, enabling tasks like music generation and voice cloning.
+  - WaveNet: WaveNet is a deep generative model for audio synthesis. It models the raw waveform directly, allowing high-quality audio generation with realistic details and nuances.
+
 
 ## Audio Transformation
 
@@ -34,6 +51,14 @@ My curated list of machine learning-based techniques for sound art in creative m
 - State-of-the-Art Methods: Some machine learning libraries and models for audio transformation include:
   - Essentia: An open-source library for audio analysis and transformation, providing a wide range of audio processing algorithms and tools.
   - Spleeter: A library developed by Deezer that uses deep learning to perform source separation, allowing users to separate vocals, drums, and other sound sources from mixed audio.
+- ML techniques explained
+  - Time-domain and Frequency-domain Manipulation: Machine learning techniques can be used to manipulate audio signals in both the time domain and frequency domain. 
+    - Time Stretching and Pitch Shifting: These techniques modify the speed and pitch of audio signals without changing the overall content. They are commonly used in audio editing and music production.
+    - Spectral Processing: Spectral processing techniques operate on the frequency domain representation of audio signals. They can be used for tasks like noise reduction, audio effects, and source separation.
+
+  - Source Separation: Source separation techniques aim to separate individual sound sources from a mixture, such as isolating vocals from music. Deep learning models, including recurrent neural networks and convolutional neural networks, have been utilized to improve the accuracy and quality of source separation.
+  - Audio Style Transfer: Style transfer techniques allow for the transformation of audio signals into different styles or genres. By leveraging machine learning models, it is possible to modify the characteristics of audio, such as changing the timbre or adding specific musical attributes.
+
 
 
 
